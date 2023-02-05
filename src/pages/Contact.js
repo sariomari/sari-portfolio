@@ -1,11 +1,11 @@
 import React from "react";
-
+import {Link} from 'react-scroll'
 const Contact = () => {
     return (
         <div>
             <nav className="py-10 mb-12 flex justify-between">
                 <h1 className="text-lg font-burtons justify-center text-white">
-                    <a href="/" className="items-center px-10 flex mb-10">Home</a>
+                    <Link to="home" smooth={true} className="items-center px-10 flex mb-10">Home</Link>
                 </h1>
             </nav>
             <div name="contact" className="w-full h-screen flex justify-center items-center">

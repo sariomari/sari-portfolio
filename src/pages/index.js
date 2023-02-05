@@ -52,7 +52,7 @@ export default function Home() {
               </li>
               <li>
                 <button>
-                <Link to="home" smooth={true} furation={500} className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8">Resume</Link>
+                  <Link to="home" smooth={true} furation={500} className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8">Resume</Link>
                 </button>
               </li>
             </ul>
@@ -68,8 +68,8 @@ export default function Home() {
             </p>
             <p className="text-md text-gray-700 dark:text-white">BsC in Computer Science - Tel Aviv University.</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
-              <a href="https://www.instagram.com/sariomari/" target="_blank"><AiFillInstagram /></a>
-              <a href="https://www.linkedin.com/in/sari-omari-3661b6205/" target="_blank"><AiFillLinkedin /></a>
+              <a href="https://www.instagram.com/sariomari/"><AiFillInstagram /></a>
+              <a href="https://www.linkedin.com/in/sari-omari-3661b6205/"><AiFillLinkedin /></a>
             </div>
           </div>
         </section>
