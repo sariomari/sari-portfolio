@@ -51,7 +51,7 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
               </li>
               <li>
-                <a className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href="/resume">Resume</a>
+                <a className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</a>
               </li>
             </ul>
           </nav>
