@@ -44,15 +44,20 @@ export default function Home() {
                   </Link>
                 </button>
               </li>
-              <li className="mx-3 text-gray-700 font-medium">
-                <a href="/Contact" className="dark:text-white">Contact</a>
+              <li className="mx-3 text-gray-700 font-medium dark:text-white">
+                <button>
+                  <Link to="contact" smooth={true} duration={500}>
+                    Contact
+                  </Link>
+                </button>
+
               </li>
               <li>
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
               </li>
               <li>
                 <button>
-                  <Link to="home" smooth={true} furation={500} className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8">Resume</Link>
+                  <a href="https://drive.google.com/drive/folders/1fU6zJdK74vWDpHhi6vdaE0HR2LXgryHa?usp=sharing" target="_blank" rel="noopener noreferrer" className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8">Resume</a>
                 </button>
               </li>
             </ul>
@@ -126,6 +131,23 @@ export default function Home() {
                 <p className="py-1 text-gray-600 text-md font-medium">Main languages used were Python and Thrift. </p>
 
               </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div>
+            <div name="contact" className="w-full h-screen flex justify-center items-center">
+              <form action="https://getform.io/f/6647e865-b783-4400-ba14-849d9553ebee" method="POST" className="flex flex-col max-w-[600px] w-full">
+                <div className="pb-8">
+                  <p className="text-4xl font-bold inline border-b-4 border-cyan-300 text-white">Let's get in touch!</p>
+                  <p className="py-3">// Either submit this form or send me an email at sari.omari@gmail.com</p>
+                </div>
+                <input className="bg-cyan-50 rounded-md" type="text" placeholder="Name" name="name" />
+                <input className="my-4 bg-cyan-50 rounded-md" type="text" placeholder="Email" name="email" />
+                <textarea className="bg-cyan-50 rounded-md" type="text" placeholder="Message" name="message" rows="10" />
+                <button className="text-white border-2 hover:bg-cyan-300 hover: border-cyan-300 px-4 py-3 my-8 mx-auto flex items-center rounded-2xl">Submit</button>
+
+              </form>
             </div>
           </div>
         </section>
