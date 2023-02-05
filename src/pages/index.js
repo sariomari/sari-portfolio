@@ -51,7 +51,7 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
               </li>
               <li>
-                <a className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</a>
+                <Link className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8" href="/">Resume</Link>
               </li>
             </ul>
           </nav>
@@ -62,7 +62,7 @@ export default function Home() {
               <Image src={sari} width={230} height={230} className="rounded-full" />
             </div>
             <p className="text-md py-3 leading-8 text-gray-700 dark:text-white">
-              Software developer, travel enthusiast, mission-oriented person who's enthusiastic about everything.
+              Software developer, travel enthusiast, mission-oriented person who&apos;s enthusiastic about everything.
             </p>
             <p className="text-md text-gray-700 dark:text-white">BsC in Computer Science - Tel Aviv University.</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -84,17 +84,17 @@ export default function Home() {
               </div>
               <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="sm:text-right text-4xl font-bold">
-                  <p>Hi, I'm Sari. Nice to meet you!</p>
+                  <p>Hi, I&apos;m Sari. Nice to meet you!</p>
                 </div>
                 <div>
                   <p className=" text-gray-700 dark:text-white">
                     Greetings! I am Sari, a distinguished Computer Science student in the final stretch of my academic
                     journey at Tel Aviv University.
                     I embarked on this academic path with the intention of unlocking limitless avenues of growth, innovation, and creativity.
-                    This field also allows me to have the opportunity to work alongside the brightest minds at the world's most desirable companies. What's more, this field offers unparalleled flexibility, granting me the freedom to explore new horizons and pursue my passion for travel.
+                    This field also allows me to have the opportunity to work alongside the brightest minds at the world&apos;s most desirable companies. What&apos;s more, this field offers unparalleled flexibility, granting me the freedom to explore new horizons and pursue my passion for travel.
                   </p>
                   <p className="text-md text-gray-700 dark:text-white">
-                    I'm always thriving to be useful and to provide value to the people around me, while continuously crafting my skills.
+                    I&apos;m always thriving to be useful and to provide value to the people around me, while continuously crafting my skills.
                   </p>
                   <p className="text-md text-gray-700 dark:text-white">
                     I have worked on various projects during my spell at the university, where high-level ones include Python and Java, and low level ones in C. I have also worked with databases like MySQL and Cassandra, and is familiar with Relational/No-SQL databases.
