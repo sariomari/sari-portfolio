@@ -10,7 +10,6 @@
   },
   "dependencies": {
     "@next/font": "13.1.6",
-    "@pdftron/webviewer": "^8.11.0",
     "eslint": "8.33.0",
     "eslint-config-next": "13.1.6",
     "next": "13.1.6",
