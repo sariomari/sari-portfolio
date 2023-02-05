@@ -6,9 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "npm run download-webviewer",
-    "download-webviewer": "npx @pdftron/webviewer-downloader"
+    "lint": "next lint"
   },
   "dependencies": {
     "@next/font": "13.1.6",
@@ -25,7 +23,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "tailwindcss": "^3.2.4"
   }
