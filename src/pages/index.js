@@ -83,7 +83,7 @@ export default function Home() {
             <div className="flex flex-col justify-center items-center w-full h-full">
               <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
                 <div className="sm:text-right pb-8 pl-4">
-                  <p className="text-4xl font-bold inline border-b-4 border-cyan-200">
+                  <p className="text-4xl font-bold inline border-b-4 border-cyan-200 dark:text-[#ccd6f6]">
                     About Me
                   </p>
                 </div>
@@ -91,19 +91,19 @@ export default function Home() {
               </div>
               <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
                 <div className="sm:text-right text-4xl font-bold">
-                  <p>Hi, I&apos;m Sari. Nice to meet you!</p>
+                  <p className="dark:text-[#8892b0]">Hi, I&apos;m Sari. Nice to meet you!</p>
                 </div>
                 <div>
-                  <p className=" text-gray-700 dark:text-white">
+                  <p className=" text-gray-700 dark:text-[#8892b0]">
                     Greetings! I am Sari, a distinguished Computer Science student in the final stretch of my academic
                     journey at Tel Aviv University.
                     I embarked on this academic path with the intention of unlocking limitless avenues of growth, innovation, and creativity.
                     This field also allows me to have the opportunity to work alongside the brightest minds at the world&apos;s most desirable companies. What&apos;s more, this field offers unparalleled flexibility, granting me the freedom to explore new horizons and pursue my passion for travel.
                   </p>
-                  <p className="text-md text-gray-700 dark:text-white">
+                  <p className="text-md text-gray-700 dark:text-[#8892b0]">
                     I&apos;m always thriving to be useful and to provide value to the people around me, while continuously crafting my skills.
                   </p>
-                  <p className="text-md text-gray-700 dark:text-white">
+                  <p className="text-md text-gray-700 dark:text-[#8892b0]">
                     I have worked on various projects during my spell at the university, where high-level ones include Python and Java, and low level ones in C. I have also worked with databases like MySQL and Cassandra, and is familiar with Relational/No-SQL databases.
                   </p>
                 </div>
@@ -146,7 +146,6 @@ export default function Home() {
                 <input className="my-4 bg-cyan-50 rounded-md" type="text" placeholder="Email" name="email" />
                 <textarea className="bg-cyan-50 rounded-md" type="text" placeholder="Message" name="message" rows="10" />
                 <button className="text-black border-2 hover:bg-cyan-300 hover: border-cyan-300 px-4 py-3 my-8 mx-auto flex items-center rounded-2xl dark:text-white">Submit</button>
-
               </form>
             </div>
           </div>
