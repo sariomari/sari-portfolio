@@ -15,7 +15,7 @@ import java from '../../public/java.png'
 import linux from '../../public/linux.png'
 import mysql from '../../public/mysql.png'
 import react from '../../public/react.png'
-import clang from '../../public/c.png'
+import clang from '../../public/C.png'
 import nosql from '../../public/nosql.png'
 
 export default function Home() {
