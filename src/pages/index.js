@@ -202,8 +202,8 @@ export default function Home() {
           <div>
             <div name="contact" className="w-full h-screen flex justify-center items-center">
               <form action="https://getform.io/f/6647e865-b783-4400-ba14-849d9553ebee" method="POST" className="flex flex-col max-w-[600px] w-full">
-                <div className="pb-8">
-                  <p className="text-4xl font-bold inline border-b-4 border-cyan-300 dark:text-white">Let&apos;s get in touch!</p>
+                <div className="pb-8 text-center">
+                  <p className="text-4xl font-bold inline border-b-4 border-cyan-200 dark:text-[#ccd6f6]">Let&apos;s get in touch!</p>
                   <p className="py-3">Either submit this form or send me an email at sari.omari@gmail.com</p>
                 </div>
                 <input className="bg-cyan-50 rounded-md" type="text" placeholder="Name" name="name" />
