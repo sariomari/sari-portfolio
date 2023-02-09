@@ -8,6 +8,15 @@ import metalogo from '../../public/META-4767da84.png'
 import jpmc from '../../public/jpmc.png'
 import { useTheme } from 'next-themes'
 import { Link } from 'react-scroll'
+import HTML from '../../public/HTML.png'
+import python from '../../public/python.png'
+import js from '../../public/js.png'
+import java from '../../public/java.png'
+import linux from '../../public/linux.png'
+import mysql from '../../public/mysql.png'
+import react from '../../public/react.png'
+import clang from '../../public/c.png'
+import nosql from '../../public/nosql.png'
 
 export default function Home() {
   const { theme, setTheme } = useTheme();
@@ -64,7 +73,8 @@ export default function Home() {
           </nav>
           <div className="text-center p-6">
             <h2 className="text-5xl py-2 text-cyan-700">Sari Omari</h2>
-            <h3 className="text-2xl py-2">Junior Software Developer</h3>
+            <h3 className="text-2xl py-2">Computer Science Student</h3>
+            <h3 className="py-2 text-gray-700 dark:text-white"> Incoming SWE Intern at J.P. Morgan</h3>
             <div className="relative flex justify-center">
               <Image src={sari} width={230} height={230} className="rounded-full" />
             </div>
@@ -113,17 +123,71 @@ export default function Home() {
 
         </section>
         <section className="flex justify-center p-10">
+          <div name="skills" className="flex flex-col align-center">
+            <div>
+              <div className="sm:text-center pb-8 pl-4">
+                <p className="text-4xl font-bold inline border-b-4 border-cyan-200 dark:text-[#ccd6f6]">Skills</p>
+                <h2 className="py-4 dark:text-[#ccd6f6]">Languages/Tools I'm familiar with</h2>
+              </div>
+              <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={HTML}  alt="HTML Icon"/>
+                  <p className="my-6">HTML</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={python}  alt="Python Icon"/>
+                  <p className="my-6">Python</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={react}  alt="React Icon"/>
+                  <p className="my-6 py-2">React</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={mysql}  alt="MySQL Icon"/>
+                  <p className="my-6 py-6">MySQL</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={clang}  alt="C Icon"/>
+                  <p className="my-6">C Language</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={js}  alt="js Icon"/>
+                  <p className="my-6 py-2">JavaScript</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={linux}  alt="Linux Icon"/>
+                  <p className="my-6 py-2">Linux</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={nosql}  alt="Nosql Icon"/>
+                  <p className="my-6 py-2">Distributed Databases</p>
+                </div>
+                <div className="shadow-md hover:scale-110 duration-500">
+                  <Image className="w-20 mx-auto" src={java}  alt="Java Icon"/>
+                  <p className="my-6">Java</p>
+                </div>
+              </div>
+
+            </div>
+            
+          </div>
+        </section>
+        <section className="flex justify-center p-10">
           <div name="experience" className="flex flex-col align-center">
-            <h3 className="text-3xl flex justify-center p-10">Experience</h3>
+            <div className="sm:text-center pb-8 pl-4">
+              <p className="text-4xl font-bold inline border-b-4 border-cyan-200 dark:text-[#ccd6f6]">
+                Experience
+              </p>
+            </div>
             <div className="lg:flex gap-10">
-              <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "50vh", width: "50vh" }}>
-                <Image className="rounded-md" src={jpmc} height={100} width={100} />
+              <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "60vh", width: "50vh" }}>
+                <Image className="rounded-md hover:scale-110 duration-500" src={jpmc} height={100} width={100} />
                 <h3 className="text-xl py-7 font-medium text-gray-600"> Incoming SWE Intern</h3>
                 <p className="font-medium text-gray-600">April 2022</p>
                 <p className="py-2 text-gray-600 text-md font-medium">To be written...</p>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "50vh", width: "50vh" }}>
-                <Image src={metalogo} height={100} width={100} />
+              <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "60vh", width: "50vh" }}>
+                <Image className="hover:scale-110 duration-500" src={metalogo} height={150} width={150} />
                 <h3 className="text-xl py-7 font-medium text-gray-600"> Meta (Facebook) Intern</h3>
                 <p className="font-medium text-gray-600">2022</p>
                 <p className="py-2 text-gray-600 text-md font-medium">I worked as a software engineer intern in the Dataswarm team.</p>
