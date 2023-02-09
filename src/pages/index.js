@@ -127,7 +127,7 @@ export default function Home() {
             <div>
               <div className="sm:text-center pb-8 pl-4">
                 <p className="text-4xl font-bold inline border-b-4 border-cyan-200 dark:text-[#ccd6f6]">Skills</p>
-                <h2 className="py-4 dark:text-[#ccd6f6]">Languages/Tools I'm familiar with</h2>
+                <h2 className="py-4 dark:text-[#ccd6f6]">Languages/Tools I&apos;m familiar with</h2>
               </div>
               <div className="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8">
                 <div className="shadow-md hover:scale-110 duration-500">
