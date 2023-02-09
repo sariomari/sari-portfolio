@@ -15,7 +15,7 @@ import java from '../../public/java.png'
 import linux from '../../public/linux.png'
 import mysql from '../../public/mysql.png'
 import react from '../../public/react.png'
-import clang from '../../public/C.png'
+import clang from '../../public/c.png'
 import nosql from '../../public/nosql.png'
 
 export default function Home() {
@@ -33,28 +33,35 @@ export default function Home() {
             <h1 className="text-xl font-burtons">sariomari</h1>
             <ul className="flex items-center">
               <li className="mx-3 text-gray-700 font-medium dark:text-white">
-                <button>
+                <button className="hover:scale-110 duration-500">
                   <Link to="home" smooth={true} duration={500}>
                     Home
                   </Link>
                 </button>
               </li>
               <li className="mx-3 text-gray-700 font-medium dark:text-white">
-                <button>
+                <button className="hover:scale-110 duration-500">
                   <Link to="about" smooth={true} duration={500}>
                     About
                   </Link>
                 </button>
               </li>
               <li className="mx-3 text-gray-700 font-medium dark:text-white">
-                <button>
+                <button className="hover:scale-110 duration-500">
+                  <Link to="skills" smooth={true} duration={500}>
+                    Skills
+                  </Link>
+                </button>
+              </li>
+              <li className="mx-3 text-gray-700 font-medium dark:text-white">
+                <button className="hover:scale-110 duration-500">
                   <Link to="experience" smooth={true} duration={500}>
                     Experience
                   </Link>
                 </button>
               </li>
               <li className="mx-3 text-gray-700 font-medium dark:text-white">
-                <button>
+                <button className="hover:scale-110 duration-500">
                   <Link to="contact" smooth={true} duration={500}>
                     Contact
                   </Link>
@@ -65,7 +72,7 @@ export default function Home() {
                 <BsFillMoonStarsFill className="cursor-pointer text-2xl" onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')} />
               </li>
               <li>
-                <button>
+                <button className="hover:scale-110 duration-500">
                   <a href="https://drive.google.com/drive/folders/1fU6zJdK74vWDpHhi6vdaE0HR2LXgryHa?usp=sharing" target="_blank" rel="noopener noreferrer" className=" bg-cyan-500 text-white px-4 py-2 rounded-md ml-8">Resume</a>
                 </button>
               </li>
