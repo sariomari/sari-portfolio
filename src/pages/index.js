@@ -196,7 +196,7 @@ export default function Home() {
               <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "60vh", width: "50vh" }}>
                 <Image className="hover:scale-110 duration-500" src={metalogo} height={150} width={150} />
                 <h3 className="text-xl py-7 font-medium text-gray-600"> Meta (Facebook) Intern</h3>
-                <p className="font-medium text-gray-600">2022</p>
+                <p className="font-medium text-gray-600">Summer 2022</p>
                 <p className="py-2 text-gray-600 text-md font-medium">I worked as a software engineer intern in the Dataswarm team.</p>
                 <p className="py-1 text-gray-600 text-md font-medium">Implemented an improved API for a new version of Dataswarm - which is a python framework for building data pipelines. </p>
                 <p className="py-1 text-gray-600 text-md font-medium">Main languages used were Python and Thrift. </p>
