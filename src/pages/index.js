@@ -81,12 +81,12 @@ export default function Home() {
           <div className="text-center p-6">
             <h2 className="text-5xl py-2 text-cyan-700">Sari Omari</h2>
             <h3 className="text-2xl py-2">Computer Science Student</h3>
-            <h3 className="py-2 text-gray-700 dark:text-white"> Incoming SWE Intern at J.P. Morgan</h3>
+            <h3 className="py-2 text-gray-700 dark:text-white"> Software Engineer at J.P. Morgan</h3>
             <div className="relative flex justify-center">
               <Image src={sari} width={230} height={230} className="rounded-full" />
             </div>
             <p className="text-md py-3 leading-8 text-gray-700 dark:text-white">
-              Software developer, travel enthusiast, mission-oriented person who&apos;s enthusiastic about everything.
+              Software developer, travel enthusiast, mission-oriented person who&apos;s enthusiastic about tech.
             </p>
             <p className="text-md text-gray-700 dark:text-white">BsC in Computer Science - Tel Aviv University.</p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600">
@@ -189,9 +189,11 @@ export default function Home() {
             <div className="lg:flex gap-10">
               <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "60vh", width: "50vh" }}>
                 <Image className="rounded-md hover:scale-110 duration-500" src={jpmc} height={100} width={100} />
-                <h3 className="text-xl py-7 font-medium text-gray-600"> Incoming SWE Intern</h3>
+                <h3 className="text-xl py-7 font-medium text-gray-600"> Software Engineer</h3>
                 <p className="font-medium text-gray-600">April 2022</p>
-                <p className="py-2 text-gray-600 text-md font-medium">To be written...</p>
+                <p className="py-2 text-gray-600 text-md font-medium">Developed efficient data quality framework using Python libraries to process very large datasets, collaborating with a global team across timezones and maintaining effective communication.</p>
+                <p className="py-1 text-gray-600 text-md font-medium">Significantly enhanced customer experience and work speed by refactoring an extensive codebase dealing with large-scale data. </p>
+                <p className="py-1 text-gray-600 text-md font-medium">Implemented clean code practices throughout development process, emphasizing code quality and maintainability. </p>
               </div>
               <div className="text-center shadow-lg p-10 rounded-xl dark: bg-white" style={{ display: "flex", flexDirection: "column", alignItems: "center", height: "60vh", width: "50vh" }}>
                 <Image className="hover:scale-110 duration-500" src={metalogo} height={150} width={150} />
