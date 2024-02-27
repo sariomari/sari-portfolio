@@ -22,15 +22,14 @@ export default function Home() {
           <div className="text-center p-6">
             <h2 className="text-5xl py-2 text-cyan-700">Sari Omari</h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
-            <div className="relative flex justify-start">
-              <Image src={sari} width={230} height={230} className="rounded-full" />
-              <p className="px-4">Hi I&apos;m Sari, nice to meet you!!</p>
+            <div className="relative flex justify-center">
+              <Image src={sari} width={400} height={400} className="rounded-full" />
             </div>
             <p className="text-md py-3 leading-8 text-gray-700 dark:text-white">
               Software developer, travel enthusiast, mission-oriented person who&apos;s enthusiastic about tech.
             </p>
             <p className="text-md text-gray-700 dark:text-white">BsC in Computer Science - Tel Aviv University.</p>
-            <div className="text-5xl flex justify-start gap-16 px-7 py-3 text-gray-600">
+            <div className="text-5xl flex justify-center gap-16 px-7 py-3 text-gray-600">
               <a href="https://www.instagram.com/sariomari/"><AiFillInstagram /></a>
               <a href="https://www.linkedin.com/in/sari-omari-3661b6205/"><AiFillLinkedin /></a>
             </div>
@@ -39,7 +38,7 @@ export default function Home() {
         <section className="flex justify-center p-10">
           <Experience />
         </section>
-        <section className="flex justify-center p-10">
+        <section>
           <Projects />
         </section>
         <section className="flex justify-center p-10">

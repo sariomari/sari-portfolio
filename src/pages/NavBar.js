@@ -18,6 +18,13 @@ export default function NavBar () {
               </li>
               <li className="mx-3 text-gray-700 font-medium dark:text-white">
                 <button className="hover:scale-110 duration-500">
+                  <Link to="projects" smooth={true} duration={500}>
+                    Projects
+                  </Link>
+                </button>
+              </li>
+              <li className="mx-3 text-gray-700 font-medium dark:text-white">
+                <button className="hover:scale-110 duration-500">
                   <Link to="skills" smooth={true} duration={500}>
                     Skills
                   </Link>
