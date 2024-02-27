@@ -17,8 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className=" bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-800">
+      <NavBar />
+      <div>
         <section className="min-h-screen">
-          <NavBar />
           <div className="text-center p-6">
             <h2 className="text-5xl py-2 text-cyan-700">Sari Omari</h2>
             <h3 className="text-2xl py-2">Software Engineer</h3>
@@ -35,6 +36,7 @@ export default function Home() {
             </div>
           </div>
         </section>
+        </div>
         <section className="flex justify-center p-10">
           <Experience />
         </section>

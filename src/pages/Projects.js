@@ -10,13 +10,17 @@ const projects = [
     {
         id: 1,
         title: 'Swift - Clothing Delivery App',
-        description: 'Swift is a dual app system that reshapes the way you handle your clothing needs. Swift facilitates the effortless delivery of apparel from your favorite shops that are in your zone, the app lets you order clothes and get them in the same hour, Whether youre a fashionista seeking convenience or a driver looking to earn, Swift makes fashion accessible, efficient, and exciting.',
+        description: 'Swift is a suite of 2 apps - one for delivery drivers and one for the customer.',
         githubLink: 'https://github.com/sariomari/swift',
         image1: swift_driver_app,
+        image1Description: "The app that the delivery driver uses. The driver can accept tasks and can use the map to navigate from customers to stores",
         image2: swift_customerapp_1,
-        image3: swift_customerapp_2
+        image2Description: "Customer App - here we can see the home screen whenever a customer logs in",
+        image3: swift_customerapp_2,
+        image3Description: "Customer App - here we can see what happens when we click on a store",
     },
 ];
+
 
 export default function Projects() {
     return (
@@ -37,24 +41,31 @@ export default function Projects() {
                                         <Image className="mx-4" src={githubIcon} height={30} width={30} />
                                     </a>
                                 </div>
-                                
+                                <div>
+                                    <p className="py-2 text-gray-600 text-md font-medium dark:text-white">{project.description}</p>
+                                </div>
+
                             </div>
-                            <div className="mb-4 flex justify-between">
-                                <div className="mb-4">
-                                    <Image src={project.image1} alt={project.title} height={300} width={300}/>
+                            <div className="flex flex-wrap justify-around">
+                                <div className="border rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-in-out dark:bg-white">
+                                    <h3 className="text-xl font-semibold mb-2 text-center text-gray-600">Driver App</h3>
+                                    <div className="flex justify-center"><Image src={project.image1} alt={project.title} height={300} width={300} className="mb-2 rounded-lg shadow-lg" /></div>
+                                    <p className="text-gray-700"> {project.image1Description}</p>
                                 </div>
                                 <div className="w-4" />
-                                <div className="mb-4">
-                                    <Image src={project.image2} alt={project.title} height={300} width={300}/>
+                                <div className="border rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-in-out dark:bg-white">
+                                    <h3 className="text-xl font-semibold mb-2 text-center text-gray-600">Customer Home Screen</h3>
+                                    <div className="flex justify-center"><Image src={project.image2} alt={project.title} height={300} width={300} className="mb-2 rounded-lg shadow-lg" /></div>
+                                    <p className="text-gray-700">{project.image2Description} </p>
                                 </div>
                                 <div className="w-4" />
-                                <div className="mb-4">
-                                    <Image src={project.image3} alt={project.title} height={300} width={300}/>
+                                <div className="border rounded-lg overflow-hidden hover:shadow-lg transition duration-300 ease-in-out dark:bg-white">
+                                    <h3 className="text-xl font-semibold mb-2 text-center text-gray-600">Customer Store Screen</h3>
+                                    <div className="flex justify-center"><Image src={project.image3} alt={project.title} height={300} width={300} className="mb-2 rounded-lg shadow-lg" /></div>
+                                    <p className="text-gray-700">{project.image3Description} </p>
                                 </div>
                             </div>
-                            <div>
-                            <p className="text-gray-700 dark:text-[#ccd6f6]">{project.description}</p>
-                            </div>
+                            
                         </div>
                     ))}
                 </div>
