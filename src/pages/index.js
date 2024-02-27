@@ -24,7 +24,7 @@ export default function Home() {
             <h3 className="text-2xl py-2">Software Engineer</h3>
             <div className="relative flex justify-start">
               <Image src={sari} width={230} height={230} className="rounded-full" />
-              <p className="px-4">Hi I'm Sari, nice to meet you!!</p>
+              <p className="px-4">Hi I&apos;m Sari, nice to meet you!!</p>
             </div>
             <p className="text-md py-3 leading-8 text-gray-700 dark:text-white">
               Software developer, travel enthusiast, mission-oriented person who&apos;s enthusiastic about tech.
